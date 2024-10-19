@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Eina03';
+  src: url('/fonts/Eina03-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Eina03';
+  src: url('/fonts/Eina03-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Eina03', 'Inter', sans-serif;
+}
+
+.bg-highlight {
+  background-color: #B5FF81;
+}
+
+.text-highlight {
+  color: #B5FF81;
+}
